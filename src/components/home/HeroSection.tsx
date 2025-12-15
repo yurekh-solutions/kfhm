@@ -98,19 +98,17 @@ export function HeroSection() {
       {/* Content Container */}
       <div className="container max-w-7xl mx-auto relative z-10 py-20 px-4">
         <div className="max-w-4xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-300 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
-            <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
-            Professional Cleaning Excellence
+          <div className="inline-block mb-6">
+            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
+              <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
+                <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent uppercase tracking-widest">Professional Excellence</span>
+              </div>
+            </div>
           </div>
           
-          <h1 className="text-6xl md:text-7xl lg:text-5xl font-black leading-tight text-white mb-6">
-            <span className="block">Cleaning Services</span>
-            <span className="bg-gradient-to-r from-red-500 via-orange-500 to-red-600 bg-clip-text text-transparent">Perfected</span>
-          </h1>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight text-white mb-6">Cleaning Services <span className="block bg-gradient-to-r from-red-500 via-orange-500 to-red-600 bg-clip-text text-transparent">Perfected</span></h1>
           
-          <p className="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
-            Transform your space with professional cleaning services backed by 35+ years of expertise.
-          </p>
+          <p className="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">Transform your space with professional cleaning services backed by 35+ years of expertise.</p>
         </div>
 
         {/* Glass Morphism Cards Grid */}
