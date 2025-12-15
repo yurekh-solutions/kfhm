@@ -14,16 +14,16 @@ export function ServicesGrid() {
       </div>
 
       <div className="container relative">
-        <div className="text-center mb-16 space-y-4 animate-fade-in">
-          <h2 className=" text-5xl md:text-6xl font-black text-gray-900">
+        <div className="text-center mb-12 md:mb-16 space-y-4 animate-fade-in">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
             Our <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Services</span>
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-4">
             Professional cleaning and pest control services for homes, offices, and commercial spaces
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
           {services.slice(0, 6).map((service, index) => (
             <div
               key={service.id}
@@ -35,11 +35,11 @@ export function ServicesGrid() {
           ))}
         </div>
 
-        <div className="text-center mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          <Button size="lg" className="bg-[#dc2626] hover:bg-red-700 text-white font-bold px-10 py-6 text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300" asChild>
+        <div className="text-center mt-12 md:mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold px-8 sm:px-10 py-4 sm:py-6 text-sm sm:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300" asChild>
             <Link to="/services" className="flex items-center gap-2">
               View All Services
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />
             </Link>
           </Button>
         </div>

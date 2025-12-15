@@ -5,12 +5,16 @@ import { FileText, AlertCircle, CreditCard, Clock } from "lucide-react";
 const Policies = () => {
   return (
     <Layout>
-      <PageBanner title="Policies" subtitle="Refund & Cancellation Policies" />
+      <PageBanner 
+        title="Policies" 
+        subtitle="Refund & Cancellation Policies"
+        backgroundImage="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1200&h=600&fit=crop"
+      />
 
-      <section className="py-16">
+      <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="container max-w-4xl">
           {/* Refund Policy */}
-          <div className="mb-12">
+          <div className="mb-12 glass-effect rounded-2xl p-8 transition-all duration-300 hover:shadow-lg animate-fade-in">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <CreditCard className="w-6 h-6 text-primary" />
@@ -18,7 +22,7 @@ const Policies = () => {
               <h2 className="text-2xl font-bold text-foreground">Refund Policy</h2>
             </div>
 
-            <div className="bg-card rounded-xl p-6 card-shadow space-y-4">
+            <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <FileText className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
                 <p className="text-muted-foreground">
@@ -44,9 +48,9 @@ const Policies = () => {
                 </p>
               </div>
 
-              <div className="bg-muted/50 rounded-lg p-4 mt-4">
-                <h4 className="font-semibold mb-2 text-foreground">Refund Details:</h4>
-                <ul className="space-y-2 text-sm text-muted-foreground">
+              <div className="glass-effect-dark text-white rounded-lg p-4 mt-4">
+                <h4 className="font-semibold mb-2">Refund Details:</h4>
+                <ul className="space-y-2 text-sm">
                   <li><strong>Refund Mode:</strong> Online Transfer (NET BANKING, RTGS, NEFT)</li>
                   <li><strong>Refund Duration:</strong> 5 – 7 working days</li>
                 </ul>
@@ -55,7 +59,7 @@ const Policies = () => {
           </div>
 
           {/* Cancellation Policy */}
-          <div className="mb-12">
+          <div className="mb-12 glass-effect rounded-2xl p-8 transition-all duration-300 hover:shadow-lg animate-fade-in" style={{ animationDelay: '0.1s' }}>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <AlertCircle className="w-6 h-6 text-primary" />
@@ -63,7 +67,7 @@ const Policies = () => {
               <h2 className="text-2xl font-bold text-foreground">Cancellation Policy</h2>
             </div>
 
-            <div className="bg-card rounded-xl p-6 card-shadow space-y-4">
+            <div className="space-y-4">
               <p className="text-muted-foreground">
                 In the event Client needs to cancel a scheduled cleaning appointment, <strong>forty-eight (48) 
                 hours' notice</strong> to KHFM Hospitality & Facility Management Services Ltd is required. 
@@ -93,7 +97,7 @@ const Policies = () => {
           </div>
 
           {/* Terms of Service */}
-          <div className="mb-12">
+          <div className="mb-12 glass-effect rounded-2xl p-8 transition-all duration-300 hover:shadow-lg animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                 <FileText className="w-6 h-6 text-primary" />
@@ -101,7 +105,7 @@ const Policies = () => {
               <h2 className="text-2xl font-bold text-foreground">Terms of Service</h2>
             </div>
 
-            <div className="bg-card rounded-xl p-6 card-shadow space-y-4">
+            <div className="space-y-4">
               <p className="text-muted-foreground">
                 By booking any service with KHFM Cleaning Solutions, you agree to the following terms:
               </p>
@@ -132,11 +136,7 @@ const Policies = () => {
           </div>
 
           {/* Eco Banner */}
-          <div className="text-center">
-            <div className="bg-secondary text-secondary-foreground rounded-full py-4 px-8 inline-block">
-              <span className="font-semibold">🌿 Always use Eco-Friendly Services & Save our Nature</span>
-            </div>
-          </div>
+         
         </div>
       </section>
     </Layout>

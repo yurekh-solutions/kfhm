@@ -150,6 +150,83 @@
   .animate-scale-in {
     animation: scaleIn 0.4s ease-out forwards;
   }
+
+  /* Enhanced Glass Morphism Effects with Responsive Sizing */
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border-radius: 1rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .glass-effect:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    box-shadow: 0 12px 48px 0 rgba(31, 38, 135, 0.25);
+    transform: translateY(-4px);
+  }
+
+  .glass-effect-dark {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .glass-effect-dark:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.4);
+    transform: translateY(-4px);
+  }
+
+  /* Glass Card with Premium Effects */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 2px solid rgba(255, 255, 255, 0.45);
+    box-shadow: 0 10px 40px 0 rgba(31, 38, 135, 0.12);
+    border-radius: 1rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .glass-card:hover {
+    background: rgba(255, 255, 255, 0.85);
+    border: 2px solid rgba(220, 38, 38, 0.5);
+    box-shadow: 0 15px 60px 0 rgba(220, 38, 38, 0.2);
+  }
+}
+
+/* Responsive Glass Morphism */
+@media (max-width: 640px) {
+  .glass-effect,
+  .glass-effect-dark,
+  .glass-card {
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .glass-effect,
+  .glass-effect-dark,
+  .glass-card {
+    border-radius: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .glass-effect,
+  .glass-effect-dark,
+  .glass-card {
+    border-radius: 1.5rem;
+  }
 }
 
 @keyframes fadeIn {

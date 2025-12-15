@@ -181,7 +181,7 @@ export function ContactForm() {
                   className="w-full bg-[#dc2626] hover:bg-red-700 text-white font-bold py-6 text-lg rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 flex items-center justify-center gap-2 group"
                 >
                   <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  Submit via WhatsApp
+                  Submit 
                 </Button>
                 <p className="text-xs text-gray-500 text-center mt-3">We'll respond within 5 minutes during business hours</p>
               </div>
