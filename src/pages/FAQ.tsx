@@ -73,14 +73,8 @@ const FAQ = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Header Section */}
           <div className="text-center mb-16 animate-fade-in">
-            <div className="inline-block mb-6">
-              <div className="bg-gradient-to-r from-red-500 to-red-600 rounded-full p-1">
-                <div className="bg-white rounded-full px-8 py-3">
-                  <span className="text-sm font-bold bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">Have Questions?</span>
-                </div>
-              </div>
-            </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+            
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-[600] font-semibold mb-6 text-gray-900 leading-tight">
                 Frequently <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Asked Questions</span>
               </h1>
 
@@ -148,7 +142,7 @@ const FAQ = () => {
               <div className="relative z-10">
                 <div className="flex justify-center mb-4">
                 </div>
-                <h3 className="text-2xl font-bold text-blue-700 mb-3">Still Have Questions?</h3>
+                <h3 className="text-xl sm:text-2xl font-[600] font-semibold text-blue-700 mb-3">Still Have Questions?</h3>
                 <p className="text-gray-700 mb-8">Can't find your answer? Our support team is here to help!</p>
                 <button 
                   onClick={handleWhatsAppClick}
@@ -212,7 +206,7 @@ const FAQ = () => {
                       </div>
                     </div>
                     
-                    <h3 className="text-2xl font-bold text-white mb-2">Connect on WhatsApp</h3>
+                    <h3 className="text-xl sm:text-2xl font-[600] font-semibold text-white mb-2">Connect on WhatsApp</h3>
                     <p className="text-white/90 mb-6">Chat with us directly for instant support!</p>
                     
                     <div className="bg-white/20 rounded-2xl p-4 mb-6 border border-white/40 backdrop-blur-sm">

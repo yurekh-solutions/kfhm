@@ -23,10 +23,10 @@ export function WhyKHFMSection() {
           {/* Left content - Interactive Accordion */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight animate-fade-in">
+              <h1 className="text-5xl  md:text-6xl font-semibold  font-[600px] text-gray-900 leading-tight animate-fade-in">
                 Why <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">KHFM</span>
               </h1>
-              <p className="text-xl text-gray-700 leading-relaxed font-medium animate-fade-in" style={{ animationDelay: "0.05s" }}>Click on any reason to explore what makes us different</p>
+              <p className="text-xl  text-gray-700 leading-relaxed font-medium animate-fade-in" style={{ animationDelay: "0.05s" }}>Click on any reason to explore what makes us different</p>
             </div>
 
             {/* Interactive Accordion */}
@@ -79,24 +79,45 @@ export function WhyKHFMSection() {
               ))}
             </div>
 
-            <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
-              <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold px-8 rounded-full transform hover:scale-105 transition-all shadow-lg" asChild>
-                <Link to="/services">
-                  View Our Services
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </Link>
-              </Button>
-              <Button
-                size="lg"
-                className="border-2 border-red-600 text-red-600 bg-white/50 backdrop-blur-sm hover:bg-red-600 hover:text-white font-semibold px-8 rounded-full transform hover:scale-105 transition-all shadow-lg"
-                asChild
-              >
-                <a href="tel:+919987574333">
-                  <Phone className="w-4 h-4 mr-2" />
-                  Enquire Now
-                </a>
-              </Button>
-            </div>
+           <div
+  className="flex flex-col sm:flex-row gap-4 animate-fade-in"
+  style={{ animationDelay: "0.4s" }}
+>
+  <Button
+    size="lg"
+    className="w-full sm:w-auto
+      bg-gradient-to-r from-red-600 to-red-700
+      hover:from-red-700 hover:to-red-800
+      text-white font-semibold px-8 rounded-full
+      transform hover:scale-105 transition-all shadow-lg"
+    asChild
+  >
+    <Link to="/services" className="flex items-center justify-center w-full">
+      View Our Services
+      <ArrowRight className="w-5 h-5 ml-2" />
+    </Link>
+  </Button>
+
+  <Button
+    size="lg"
+    className="w-full sm:w-auto
+      border-2 border-red-600 text-red-600
+      bg-white/50 backdrop-blur-sm
+      hover:bg-red-600 hover:text-white
+      font-semibold px-8 rounded-full
+      transform hover:scale-105 transition-all shadow-lg"
+    asChild
+  >
+    <a
+      href="tel:+919987574333"
+      className="flex items-center justify-center w-full"
+    >
+      <Phone className="w-4 h-4 mr-2" />
+      Enquire Now
+    </a>
+  </Button>
+</div>
+
           </div>
 
           {/* Right content - Premium Image Card with Stats */}

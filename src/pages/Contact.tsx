@@ -59,7 +59,7 @@ const Contact = () => {
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
        Get In Touch
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] mb-6 text-gray-900 leading-tight">
               Let's Connect & 
               <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Help You</span>
             </h1>
@@ -158,7 +158,7 @@ const Contact = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Creations</span> </h1>
+            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Creations</span> </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
               A visual collection of our most recent works - each space transformed with intention, expertise, and premium cleaning excellence.
             </p>

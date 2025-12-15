@@ -9,7 +9,7 @@ export function PageBanner({ title, subtitle, backgroundImage }: PageBannerProps
     <section 
       className="hero-gradient text-white py-16 md:py-24 relative overflow-hidden"
       style={{
-        backgroundImage: backgroundImage ? `linear-gradient(135deg, rgba(29, 41, 169, 0.73) 0%, rgba(29, 41, 169, 0.73) 100%), url(${backgroundImage})` : undefined,
+        backgroundImage: backgroundImage ? `linear-gradient(135deg, rgba(1, 82, 245, 0.73) 0%, rgba(19, 19, 20, 0.73) 80%), url(${backgroundImage})` : undefined,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
@@ -21,7 +21,7 @@ export function PageBanner({ title, subtitle, backgroundImage }: PageBannerProps
       </div>
       <div className="container relative z-10">
         <div className="glass-effect-dark rounded-2xl p-8 md:p-12 text-center animate-fade-in">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">{title}</h1>
+          <h1 className="text-4xl md:text-5xl font-bold  mb-2">{title}</h1>
           {subtitle && <p className="text-lg opacity-90">{subtitle}</p>}
         </div>
       </div>

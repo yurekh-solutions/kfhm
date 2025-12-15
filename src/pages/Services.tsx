@@ -31,7 +31,7 @@ const Services = () => {
        Premium Solutions
         
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Professional Services</span></h1>
+            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] mb-6 text-gray-900 leading-tight">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Professional Services</span></h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
               Comprehensive cleaning solutions tailored to meet your home's unique needs with professional excellence.
             </p>
