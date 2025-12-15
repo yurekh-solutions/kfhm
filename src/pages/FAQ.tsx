@@ -80,7 +80,11 @@ const FAQ = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Frequently Asked Questions</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+                Frequently <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Asked Questions</span>
+              </h1>
+
+            {/* <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Frequently Asked Questions</h1> */}
             <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
               Get instant answers to the most common questions about our premium cleaning services
             </p>
@@ -144,7 +148,7 @@ const FAQ = () => {
               <div className="relative z-10">
                 <div className="flex justify-center mb-4">
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">Still Have Questions?</h3>
+                <h3 className="text-2xl font-bold text-blue-700 mb-3">Still Have Questions?</h3>
                 <p className="text-gray-700 mb-8">Can't find your answer? Our support team is here to help!</p>
                 <button 
                   onClick={handleWhatsAppClick}

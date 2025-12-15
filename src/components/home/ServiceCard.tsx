@@ -39,7 +39,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         
         {/* Content Section - Responsive */}
         <div className="p-4 sm:p-6 md:p-7 flex-1 flex flex-col relative z-10">
-          <h3 className="font-black text-lg sm:text-xl md:text-2xl text-red-600 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
+          <h3 className="font-black text-lg sm:text-xl md:text-2xl text-blue-700 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
             {service.name}
           </h3>
           <p className="text-gray-700 text-xs sm:text-sm md:text-base mb-4 sm:mb-6 line-clamp-2 leading-relaxed flex-1">

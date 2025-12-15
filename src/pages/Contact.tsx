@@ -56,15 +56,15 @@ const Contact = () => {
           {/* Main Header */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="inline-block mb-6">
-              <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
+              <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-full p-1">
                 <div className="bg-white/95 rounded-full px-8 py-3 shadow-xl">
-                  <span className="text-sm font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Get in Touch</span>
+                  <span className="text-sm font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Get in Touch</span>
                 </div>
               </div>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">
               Let's Connect & 
-              <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent"> Help You</span>
+              <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Help You</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
               Have questions about our premium cleaning services? We're here to provide expert assistance and ensure your complete satisfaction.
@@ -104,7 +104,7 @@ const Contact = () => {
         <section className="py-20 bg-gradient-to-br from-white via-red-50/30 to-white">
         <div className="container max-w-7xl mx-auto px-4">
           <div className="mb-16 text-center animate-fade-in">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Reach Out <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">To Us</span></h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Reach Out <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">To Us</span></h2>
 
             <p className="text-lg text-gray-600 font-medium">Multiple ways to connect with our expert team</p>
           </div>
@@ -161,7 +161,7 @@ const Contact = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent"> Creations</span> </h1>
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Creations</span> </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
               A visual collection of our most recent works - each space transformed with intention, expertise, and premium cleaning excellence.
             </p>

@@ -344,7 +344,7 @@ const BlogDetail = () => {
                       <p className="text-gray-600">Cleaning Expert & Consultant</p>
                     </div>
                   </div>
-                  <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
                     Follow
                   </button>
                 </div>
@@ -364,7 +364,7 @@ const BlogDetail = () => {
               </p>
               <button
                 onClick={() => navigate("/blog")}
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Browse All Articles
               </button>

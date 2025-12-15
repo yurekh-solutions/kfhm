@@ -26,7 +26,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">Our <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Professional Services</span></h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Professional Services</span></h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
               Comprehensive cleaning solutions tailored to meet your home's unique needs with professional excellence.
             </p>
@@ -57,7 +57,7 @@ const Services = () => {
                 {/* Content Section */}
                 <div className="relative z-10 p-8">
                   {/* Title */}
-                  <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-red-600 transition-colors leading-tight">
+                  <h3 className="text-2xl font-bold text-blue-700 mb-3 group-hover:text-red-600 transition-colors leading-tight">
                     {service.name}
                   </h3>
 

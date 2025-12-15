@@ -16,7 +16,10 @@ const Policies = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Section Title */}
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Policies</h2>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+                Our  <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Policies</span>
+              </h1>
+            {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Policies</h2> */}
             <p className="text-lg text-gray-600">Transparent and customer-friendly policies for peace of mind</p>
           </div>
 
@@ -28,7 +31,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 group-hover:bg-white/80 transition-all">
                   <CreditCard className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Refund Policy</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Refund <span className="text-blue-700"> Policy</span></h2>
               </div>
 
               <div className="space-y-6">
@@ -91,7 +94,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 hover:bg-white/80 transition-all">
                   <AlertCircle className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Cancellation Policy</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Cancellation <span className="text-blue-700">  Policy </span></h2>
               </div>
 
               <div className="space-y-6">
@@ -141,7 +144,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 hover:bg-white/80 transition-all">
                   <FileText className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Terms of Service</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Terms of <span className="text-blue-700">  Service </span></h2>
               </div>
 
               <div className="space-y-6">

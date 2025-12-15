@@ -50,7 +50,7 @@ const About = () => {
               </div>
               
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
-                KHFM <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Cleaning Solution</span>
+                KHFM <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Cleaning Solution</span>
               </h1>
 
               <div className="space-y-4 mb-8">
@@ -77,7 +77,7 @@ const About = () => {
 
           {/* Services Grid */}
           <div className="mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Services</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Services</span></h2>
             <p className="text-xl text-gray-700 font-medium mb-8">Comprehensive cleaning solutions for every need</p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

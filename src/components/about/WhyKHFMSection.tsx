@@ -24,7 +24,7 @@ export function WhyKHFMSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 leading-tight animate-fade-in">
-                Why <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">KHFM</span>
+                Why <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">KHFM</span>
               </h1>
               <p className="text-xl text-gray-700 leading-relaxed font-medium animate-fade-in" style={{ animationDelay: "0.05s" }}>Click on any reason to explore what makes us different</p>
             </div>
