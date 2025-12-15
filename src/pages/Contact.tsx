@@ -52,7 +52,7 @@ const Contact = () => {
 
       {/* Header Section */}
       <section className="py-20 bg-gradient-to-br from-red-50 via-red-25 to-white">
-        <div className="container max-w-5xl mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           {/* Main Header */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="inline-block mb-6">
@@ -102,7 +102,7 @@ const Contact = () => {
           </div>
         </div>
         <section className="py-20 bg-gradient-to-br from-white via-red-50/30 to-white">
-        <div className="container max-w-5xl mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           <div className="mb-16 text-center animate-fade-in">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Reach Out <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">To Us</span></h2>
 
@@ -158,7 +158,7 @@ const Contact = () => {
           }
         `}</style>
 
-        <div className="container max-w-6xl mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent"> Creations</span> </h1>

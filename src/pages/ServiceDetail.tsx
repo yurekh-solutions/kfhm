@@ -112,7 +112,7 @@ const ServiceDetail = () => {
       />
 
       <section className="py-20 bg-gradient-to-br from-red-50 via-white to-red-50">
-        <div className="container max-w-6xl mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           {/* Back Button */}
           <Link
             to="/services"

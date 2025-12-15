@@ -16,7 +16,7 @@ const Services = () => {
       />
 
       <section className="py-20 bg-gradient-to-br from-red-50 via-white to-red-50 min-h-screen">
-        <div className="container max-w-6xl mx-auto px-4">
+        <div className="container max-w-7xl mx-auto px-4">
           {/* Header Section */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="inline-block mb-6">
