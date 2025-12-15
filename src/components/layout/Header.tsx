@@ -132,7 +132,7 @@ export function Header() {
 
       {/* TOP BAR */}
       <div className="bg-red-600 text-white py-2 text-sm">
-        <div className="container flex flex-wrap items-center justify-between gap-3">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center justify-between gap-3">
 
           {/* SOCIAL ICONS */}
           <div className="flex items-center gap-4 text-white">
@@ -164,10 +164,10 @@ export function Header() {
 
       {/* MAIN NAVBAR */}
       <nav className="bg-background border-b shadow-sm">
-        <div className="container flex items-center justify-between py-4">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
 
-          <Link to="/" className="flex items-center">
-            <img src="/src/assets/img/logo.png" alt="KHFM" className="h-12 w-auto object-contain" />
+          <Link to="/" className="flex items-center flex-shrink-0">
+            <img src="/logo.png" alt="KHFM" className="h-12 md:h-14 w-auto object-contain" />
           </Link>
 
           {/* DESKTOP NAV */}
@@ -205,7 +205,7 @@ export function Header() {
         {/* MOBILE NAV */}
         {mobileMenuOpen && (
           <div className="lg:hidden border-t bg-background animate-fade-in">
-            <div className="container py-4 space-y-2">
+            <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-2">
               {navLinks.map((link) => (
                 <Link
                   key={link.path}
