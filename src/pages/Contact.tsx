@@ -56,9 +56,9 @@ const Contact = () => {
           {/* Main Header */}
           <div className="text-center mb-16 animate-fade-in">
             <div className="inline-block mb-6">
-              <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-full p-1">
+              <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
                 <div className="bg-white/95 rounded-full px-8 py-3 shadow-xl">
-                  <span className="text-sm font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Get in Touch</span>
+                  <span className="text-sm font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Get in Touch</span>
                 </div>
               </div>
             </div>
