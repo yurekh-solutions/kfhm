@@ -15,6 +15,13 @@ export function ServicesGrid() {
 
       <div className="container max-w-7xl mx-auto relative px-4">
         <div className="text-center mb-12 md:mb-16 space-y-4 animate-fade-in">
+          <div className="inline-block mb-4">
+            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
+              <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
+                <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Services</span>
+              </div>
+            </div>
+          </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
             Our <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Services</span>
           </h2>

@@ -34,7 +34,13 @@ export function ProcessSection() {
 
       <div className="container max-w-7xl mx-auto relative px-4">
         <div className="mb-16 space-y-4 animate-fade-in text-center">
-          <span className="section-label text-red-700 font-bold text-sm uppercase tracking-widest">Our Process</span>
+          <div className="inline-block mb-4">
+            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
+              <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
+                <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Process</span>
+              </div>
+            </div>
+          </div>
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mt-4">
             Get Amazing Cleaning In <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">4 Simple Steps</span>
           </h2>
