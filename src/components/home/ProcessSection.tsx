@@ -32,7 +32,7 @@ export function ProcessSection() {
         <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-orange-200/15 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative">
+      <div className="container max-w-7xl mx-auto relative px-4">
         <div className="mb-16 space-y-4 animate-fade-in text-center">
           <span className="section-label text-red-700 font-bold text-sm uppercase tracking-widest">Our Process</span>
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mt-4">

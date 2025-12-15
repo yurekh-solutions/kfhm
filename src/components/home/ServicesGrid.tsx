@@ -13,7 +13,7 @@ export function ServicesGrid() {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-200/15 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative">
+      <div className="container max-w-7xl mx-auto relative px-4">
         <div className="text-center mb-12 md:mb-16 space-y-4 animate-fade-in">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
             Our <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Services</span>

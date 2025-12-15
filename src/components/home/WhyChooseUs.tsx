@@ -41,7 +41,7 @@ export function WhyChooseUs() {
         <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-orange-200/15 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative px-4 md:px-6">
+      <div className="container max-w-7xl mx-auto relative px-4 md:px-6">
         {/* Streamlined Features Section - No Cards */}
        
 

@@ -84,7 +84,7 @@ export function TestimonialsSection() {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-200/10 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative px-4 md:px-6">
+      <div className="container max-w-7xl mx-auto relative px-4 md:px-6">
         {/* Header */}
         <div className="mb-12 md:mb-16 space-y-3 md:space-y-4 animate-fade-in text-center">
           <span className="section-label text-red-700 font-bold text-xs md:text-sm uppercase tracking-widest">Testimonials</span>

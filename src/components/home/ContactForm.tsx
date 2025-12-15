@@ -54,7 +54,7 @@ export function ContactForm() {
         <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-orange-200/10 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container relative">
+      <div className="container max-w-7xl mx-auto relative px-4">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4 animate-fade-in">
           <span className="section-label text-red-700 font-bold text-sm uppercase tracking-widest">Get In Touch</span>
