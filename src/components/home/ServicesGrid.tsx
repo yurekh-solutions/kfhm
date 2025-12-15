@@ -16,15 +16,18 @@ export function ServicesGrid() {
       <div className="container max-w-7xl mx-auto relative px-4">
         <div className="text-center mb-12 md:mb-16 space-y-4 animate-fade-in">
           <div className="inline-block mb-4">
-            <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
-              <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
+              {/* <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
                 <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Services</span>
-              </div>
-            </div>
+              </div> */}
+                <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
+          Our Services
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
+            
+          </div>
+          <h6 className="text-3xl sm:text-4xl  leading-relaxed  font-bold font-[600] md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
             Expert Care for Clean <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Safe Spaces</span>
-          </h2>
+          </h6>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-4">
             Professional cleaning and pest control services for homes, offices, and commercial spaces
           </p>

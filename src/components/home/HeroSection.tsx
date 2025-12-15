@@ -87,7 +87,7 @@ export function HeroSection() {
               alt={slide.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/70"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/80 to-black/70"></div>
           </div>
         ))}
       </div>
@@ -103,12 +103,13 @@ export function HeroSection() {
             Professional Cleaning Excellence
           </div>
           
-          <h1 className="text-6xl md:text-7xl lg:text-5xl font-black leading-tight text-white mb-6">
-            <span className="block">Cleaning Services</span>
-            <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Perfected</span>
+          <h1 className="text-5xl md:text-5xl font-black text-white mt-4 font-black leading-tight text-white mb-6">
+            {/* <span className="block">Cleaning Services</span> */}
+            {/* <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Perfected</span> */}
+             Cleaning Services<span className="bg-gradient-to-r from-orange-600 to-red-800 bg-clip-text text-transparent"> Perfected</span> 
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl md:text-xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
             Transform your space with professional cleaning services backed by 35+ years of expertise.
           </p>
         </div>

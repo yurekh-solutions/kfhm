@@ -41,14 +41,19 @@ const About = () => {
 
             {/* Content Section 1 */}
             <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="inline-block mb-6">
+              {/* <div className="inline-block mb-6">
                 <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
                   <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
                     <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Story</span>
                   </div>
                 </div>
               </div>
-              
+               */}
+               <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
+        Our Story
+        
+            </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
                 KHFM <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Cleaning Solution</span>
               </h1>

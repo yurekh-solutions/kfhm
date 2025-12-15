@@ -48,12 +48,16 @@ const Blog = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Header Section */}
           <div className="text-center mb-16 animate-fade-in">
-            <div className="inline-block mb-6">
+            {/* <div className="inline-block mb-6">
               <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
                 <div className="bg-white/95 rounded-full px-8 py-3 shadow-xl">
                   <span className="text-sm font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Latest Updates</span>
                 </div>
               </div>
+            </div> */}
+            <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
+       Latest Updates
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-gray-900 leading-tight">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Blog Posts</span></h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">

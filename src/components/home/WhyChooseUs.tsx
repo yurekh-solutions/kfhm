@@ -110,16 +110,21 @@ export function WhyChooseUs() {
             {/* Left: Text Content - Responsive */}
             <div className="flex-1 space-y-6 md:space-y-8 flex flex-col">
               <div>
-                <div className="inline-block mb-4">
+                {/* <div className="inline-block mb-4">
                   <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full p-1">
                     <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
                       <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Why Choose Us</span>
                     </div>
                   </div>
-                </div>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 mt-2 md:mt-4 leading-tight">
+                </div> */}
+                       <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
+         Why Choose Us
+        
+            </div>
+                <h6 className="text-3xl md:text-4xl lg:text-5xl leading-relaxed  font-bold font-[600] font-black text-gray-900 mt-2 md:mt-4 leading-tight">
                   Proven Excellence in <span className=" bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Cleaning Services</span>
-                </h2>
+                </h6>
               </div>
               
               {/* Features List - Responsive */}
