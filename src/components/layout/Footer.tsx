@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Clock } from "lucide-react";
+import logoImg from "@/assets/img/logo.png";
+import bannerImg from "@/assets/img/banner.jpg";
 
 const pageLinks = [
   { name: "Home", path: "/" },
@@ -15,7 +17,7 @@ export function Footer() {
   return (
     <footer className="bg-red-600 text-white relative overflow-hidden"
     style={{
-        backgroundImage: "url('/src/assets/img/banner.jpg')", // <-- your image here
+        backgroundImage: `url('${bannerImg}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}>
@@ -31,7 +33,7 @@ export function Footer() {
             <div className="mb-6">
               <div className="bg-white rounded-2xl p-4 w-fit">
                 <img 
-                  src="/src/assets/img/logo.png" 
+                  src={logoImg}
                   alt="KHFM Logo" 
                   className="h-14 w-auto object-contain"
                 />

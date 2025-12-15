@@ -112,6 +112,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Mail, Menu, X, Facebook, Twitter, Youtube, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@/assets/img/logo.png";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -167,7 +168,7 @@ export function Header() {
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between py-4">
 
           <Link to="/" className="flex items-center flex-shrink-0">
-            <img src="/logo.png" alt="KHFM" className="h-12 md:h-14 w-auto object-contain" />
+            <img src={logoImg} alt="KHFM" className="h-12 md:h-14 w-auto object-contain" />
           </Link>
 
           {/* DESKTOP NAV */}
