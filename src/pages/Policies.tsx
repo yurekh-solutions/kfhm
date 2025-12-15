@@ -1,6 +1,7 @@
 import { Layout } from "@/components/layout/Layout";
 import { PageBanner } from "@/components/PageBanner";
 import { FileText, AlertCircle, CreditCard, Clock, CheckCircle2, Shield } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Policies = () => {
   return (
@@ -186,9 +187,9 @@ const Policies = () => {
               <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
                 Contact our support team for any clarifications regarding our policies.
               </p>
-              <button className="inline-flex items-center gap-2 bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-lg">
+              <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-lg">
                 Contact Support
-              </button>
+              </Link>
             </div>
           </div>
         </div>
