@@ -118,7 +118,7 @@ export function WhyChooseUs() {
                   </div>
                 </div>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-gray-900 mt-2 md:mt-4 leading-tight">
-                  Proven Excellence in <span className="bg-gradient-to-r from-red-600 to-orange-600 bg-clip-text text-transparent">Cleaning Services</span>
+                  Proven Excellence in <span className=" bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Cleaning Services</span>
                 </h2>
               </div>
               

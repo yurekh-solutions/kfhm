@@ -105,7 +105,7 @@ export function HeroSection() {
           
           <h1 className="text-6xl md:text-7xl lg:text-5xl font-black leading-tight text-white mb-6">
             <span className="block">Cleaning Services</span>
-            <span className="bg-gradient-to-r from-red-500 via-orange-500 to-red-600 bg-clip-text text-transparent">Perfected</span>
+            <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Perfected</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-white/80 mb-10 leading-relaxed max-w-2xl mx-auto">
