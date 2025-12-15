@@ -42,7 +42,7 @@ export function ProcessSection() {
             </div>
           </div>
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mt-4">
-            Get Amazing Cleaning In <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">4 Simple Steps</span>
+            Get Amazing Cleaning In <span className="bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">4 Simple Steps</span>
           </h2>
           <p className="text-gray-700 text-lg max-w-2xl mx-auto leading-relaxed">Simple, transparent, and hassle-free process to get your space cleaned</p>
         </div>

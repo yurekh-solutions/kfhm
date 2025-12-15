@@ -65,7 +65,7 @@ export function ContactForm() {
             </div>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mt-4">
-            Get <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Free Consultation</span> Today
+            Get <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Free Consultation</span> Today
           </h2>
           <p className="text-gray-700 text-lg mt-4 max-w-2xl mx-auto leading-relaxed">
             Have questions? Our professional cleaning experts are here to help. Contact us via WhatsApp for instant response.

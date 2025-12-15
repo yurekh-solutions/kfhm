@@ -95,7 +95,7 @@ export function TestimonialsSection() {
             </div>
           </div>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-gray-900 mt-2 md:mt-4 leading-tight">
-            See what our <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">happy customers</span> have to say
+            See what our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">happy customers</span> have to say
           </h2>
         </div>
 

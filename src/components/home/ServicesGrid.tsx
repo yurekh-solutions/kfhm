@@ -23,7 +23,7 @@ export function ServicesGrid() {
             </div>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
-            Expert Care for Clean <span className="bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Safe Spaces</span>
+            Expert Care for Clean <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Safe Spaces</span>
           </h2>
           <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-4">
             Professional cleaning and pest control services for homes, offices, and commercial spaces

@@ -16,7 +16,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <div className="absolute inset-0 bg-gradient-to-br from-white/50 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl sm:rounded-3xl"></div>
         
         {/* Hover gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-red-50/30 to-orange-50/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0 rounded-2xl sm:rounded-3xl"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-red-50/30 to-red-50/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0 rounded-2xl sm:rounded-3xl"></div>
 
         {/* Image Container - Responsive */}
         <div className="relative w-full h-48 sm:h-56 md:h-64 overflow-hidden z-10">
@@ -31,7 +31,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
           
           {/* Price Badge - Responsive positioning */}
           <div className="absolute top-3 sm:top-5 right-3 sm:right-5">
-            <span className="bg-gradient-to-r from-red-600 to-orange-600 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
+            <span className="bg-gradient-to-r from-[#fee5e5] to-[#fde4e4] text-grey px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
               ₹{service.price.toLocaleString()}
             </span>
           </div>
@@ -39,7 +39,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         
         {/* Content Section - Responsive */}
         <div className="p-4 sm:p-6 md:p-7 flex-1 flex flex-col relative z-10">
-          <h3 className="font-black text-lg sm:text-xl md:text-2xl text-gray-900 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
+          <h3 className="font-black text-lg sm:text-xl md:text-2xl text-red-600 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
             {service.name}
           </h3>
           <p className="text-gray-700 text-xs sm:text-sm md:text-base mb-4 sm:mb-6 line-clamp-2 leading-relaxed flex-1">
