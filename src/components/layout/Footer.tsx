@@ -47,7 +47,7 @@ export function Footer() {
 
           {/* Pages/Quick Links */}
           <div>
-            <h4 className="font-bold text-xl mb-6 text-white">Pages</h4>
+            <h4 className="font-bold text-lg mb-6 text-white">Pages</h4>
             <ul className="space-y-3">
               {pageLinks.map((link) => (
                 <li key={link.path}>
@@ -64,7 +64,7 @@ export function Footer() {
 
           {/* Contact Us & Working Hours Combined */}
           <div>
-            <h4 className="font-bold text-xl mb-6 text-white">Contact us</h4>
+            <h4 className="font-bold text-lg mb-6 text-white">Contact us</h4>
             <ul className="space-y-4 text-sm text-white/90">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 mt-1 flex-shrink-0 text-white" />
@@ -82,7 +82,7 @@ export function Footer() {
             </ul>
 
             <div className="mt-8">
-              <h4 className="font-bold text-xl mb-4 text-white">Working Hours</h4>
+              <h4 className="font-bold text-lg mb-4 text-white">Working Hours</h4>
               <ul className="space-y-2 text-sm text-white/90">
                 <li className="flex items-center gap-3">
                   <Clock className="w-4 h-4 flex-shrink-0 text-white" />
@@ -101,8 +101,8 @@ export function Footer() {
               <p className="text-sm font-normal text-white/90">Copyright © 2025 All rights reserved | KHFM Cleaning Solution</p>
             </div>
             <div className="text-center md:text-right">
-              <p className="text-sm font-bold text-white inline-block mr-2">Powered by</p>
-              <a href="https://www.yurekh.com" target="_blank" rel="noopener noreferrer" className="text-lg font-black text-yellow-300 hover:text-yellow-400 transition-colors inline-block">
+              <p className="text-sm font-semibold text-white inline-block mr-2">Powered by</p>
+              <a href="https://www.yurekh.com" target="_blank" rel="noopener noreferrer" className="text-base font-bold text-yellow-300 hover:text-yellow-400 transition-colors inline-block">
                 YurekhSolutions
               </a>
             </div>

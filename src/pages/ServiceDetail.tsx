@@ -91,17 +91,16 @@ const ServiceDetail = () => {
       return;
     }
 
-    const message = encodeURIComponent(
-      `Hi, I want to book:\n\n` +
-      `Service: ${service.name}\n` +
-      `House Type: ${selectedHouseType?.label}\n` +
-      `Date: ${format(date, "dd-MM-yyyy")}\n` +
-      `Time: ${timeSlot}\n` +
-      `Price: ₹${finalPrice.toLocaleString()}\n\n` +
-      `Please confirm my booking.`
-    );
-
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, "_blank");
+    // Navigate to payment page with booking data
+    navigate("/payment", {
+      state: {
+        serviceName: service.name,
+        amount: finalPrice,
+        houseType: selectedHouseType?.label,
+        date: format(date!, "dd MMM, yyyy"),
+        timeSlot: timeSlot,
+      },
+    });
   };
 
   return (
@@ -137,16 +136,16 @@ const ServiceDetail = () => {
               
               {/* Service Info */}
               <div>
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                <h2 className="text-gray-900 leading-tight mb-4">
                   {service.name}
-                </h1>
-                <p className="text-xl text-gray-700 mb-6 leading-relaxed font-medium">
+                </h2>
+                <p className="text-lg text-gray-700 mb-6 leading-relaxed font-normal">
                   {service.description}
                 </p>
                 <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full w-fit px-6 py-3 mb-6">
                   <p className="text-white font-bold text-2xl">₹{service.price.toLocaleString()}</p>
                 </div>
-                <p className="text-gray-700 font-medium">
+                <p className="text-gray-700 font-normal">
                   Professional cleaning service with guaranteed quality and eco-friendly products.
                 </p>
               </div>
@@ -160,7 +159,7 @@ const ServiceDetail = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 to-red-400/5 pointer-events-none rounded-3xl"></div>
               
               <div className="relative z-10">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Book Your Service</h2>
+                <h2 className="text-xl font-bold text-gray-900 mb-6">Book Your Service</h2>
                 
                 <div className="grid sm:grid-cols-2 gap-4 mb-6">
                   {/* House Type */}
@@ -227,9 +226,9 @@ const ServiceDetail = () => {
                   <p className="text-white font-bold text-3xl mb-4">₹{finalPrice.toLocaleString()}</p>
                   <button 
                     onClick={handleBookNow}
-                    className="w-full bg-white text-red-600 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors transform hover:scale-105"
+                    className="w-full bg-white text-red-600 font-semibold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors transform hover:scale-105 text-base"
                   >
-                    Book via WhatsApp
+                    Proceed to Payment
                   </button>
                 </div>
               </div>
@@ -314,7 +313,7 @@ const ServiceDetail = () => {
 
           {/* Testimonials */}
           <div className="mb-8 animate-fade-in" style={{ animationDelay: '0.25s' }}>
-            <h3 className="text-3xl font-bold text-gray-900 mb-8">See what our happy customers have to say</h3>
+            <h2 className="text-gray-900 mb-8">See what our happy customers have to say</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {testimonials.map((testimonial, idx) => (
                 <div key={testimonial.name} className="group relative overflow-hidden rounded-3xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-red-50/40 to-white/80 border-2 border-white/80 shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 hover:-translate-y-2 p-8 animate-fade-in" style={{ animationDelay: `${0.3 + idx * 0.05}s` }}>
@@ -351,11 +350,11 @@ const ServiceDetail = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-white/0 pointer-events-none"></div>
             
             <div className="relative z-10">
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">Ready to Book Your Service?</h3>
-              <p className="text-lg text-gray-700 mb-6 font-medium">Fill in your details above and confirm your booking via WhatsApp, or contact our team for more information.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Book Your Service?</h3>
+              <p className="text-base text-gray-700 mb-6 font-normal">Fill in your details above and confirm your booking via WhatsApp, or contact our team for more information.</p>
               <button
                 onClick={() => navigate('/contact')}
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-8 rounded-full transition-all transform hover:scale-105 text-base"
               >
                 Contact Us Today
                 <ArrowRight className="w-5 h-5" />

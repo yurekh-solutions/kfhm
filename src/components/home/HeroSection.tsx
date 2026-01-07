@@ -50,7 +50,7 @@ export function HeroSection() {
               alt={slide.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/75 to-black/60" />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/75 to-black/20" />
           </div>
         ))}
       </div>
@@ -61,14 +61,13 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-red-600/20 backdrop-blur-md
             text-red-300 px-4 py-2 rounded-full text-xs sm:text-sm
-            font-bold mb-3 sm:mb-5 border border-red-500/30">
+            font-semibold mb-3 sm:mb-5 border border-red-500/30">
             <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
             Professional Cleaning Excellence
           </div>
 
           {/* Heading */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl
-            font-black text-white leading-tight mb-3 sm:mb-5">
+          <h1 className="text-white leading-tight mb-3 sm:mb-5">
             Cleaning Services
             <span className="bg-gradient-to-r from-orange-600 to-red-800 bg-clip-text text-transparent">
               {" "}Perfected
@@ -76,16 +75,16 @@ export function HeroSection() {
           </h1>
 
           {/* Text */}
-          <p className="text-sm sm:text-lg text-white/80
-            mb-6 sm:mb-8 leading-relaxed">
+          <p className="text-base sm:text-lg text-white/90
+            mb-6 sm:mb-8 leading-relaxed font-normal">
             Transform your space with professional cleaning services backed by 35+ years of expertise.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button
-              className="bg-[#dc2626] hover:bg-red-700 text-white font-bold
-              px-8 py-4 rounded-full w-full sm:w-auto"
+              className="bg-[#dc2626] hover:bg-red-700 text-white font-semibold
+              px-8 py-4 rounded-full w-full sm:w-auto text-base"
               asChild
             >
               <Link to="/services" className="flex items-center gap-2 justify-center">
@@ -96,8 +95,8 @@ export function HeroSection() {
 
             <Button
               className="border-2 border-white text-white bg-white/10
-              hover:bg-white/20 backdrop-blur-md font-bold
-              px-8 py-4 rounded-full w-full sm:w-auto"
+              hover:bg-white/20 backdrop-blur-md font-semibold
+              px-8 py-4 rounded-full w-full sm:w-auto text-base"
               asChild
             >
               <a href="tel:+919987574333" className="flex items-center gap-2 justify-center">

@@ -16,7 +16,7 @@ const NotFound = () => {
       <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container flex items-center justify-center min-h-[50vh]">
           <div className="text-center px-4 animate-fade-in">
-            <h1 className="text-8xl font-bold text-primary mb-4">404</h1>
+            <h2 className="text-8xl font-bold text-primary mb-4">404</h2>
             <h2 className="text-2xl font-semibold text-foreground mb-6">Oops! Page Not Found</h2>
             <p className="text-muted-foreground mb-8 max-w-md mx-auto glass-effect p-4 rounded-xl">
               The page you're looking for doesn't exist or has been moved. Let's get you back on track!

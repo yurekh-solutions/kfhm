@@ -55,12 +55,12 @@ const Blog = () => {
                 </div>
               </div>
             </div> */}
-            <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
        Latest Updates
             </div>
-            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] mb-6 text-gray-900 leading-tight">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Blog Posts</span></h1>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+            <h2 className="text-gray-900 leading-tight mb-6">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Blog Posts</span></h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed font-normal">
               Expert cleaning tips, industry insights, and valuable advice to help you maintain a pristine, healthy living space.
             </p>
           </div>
@@ -97,14 +97,14 @@ const Blog = () => {
                   </div>
 
                   {/* Title */}
-                  <h3 className="text-xl font-bold text-grey-900 mb-4 line-clamp-2 group-hover:text-red-600 transition-colors leading-tight">
+                  <h3 className="text-lg md:text-xl font-bold text-grey-900 mb-4 line-clamp-2 group-hover:text-red-600 transition-colors leading-tight">
                     {post.title}
                   </h3>
 
                   {/* Read More Button - Dynamic */}
                   <button 
                     onClick={() => handleReadMore(post.slug)}
-                    className="relative inline-flex items-center gap-2 text-red-600 font-bold overflow-hidden group/btn cursor-pointer">
+                    className="relative inline-flex items-center gap-2 text-red-600 font-semibold overflow-hidden group/btn cursor-pointer text-sm">
                     {/* Background animation */}
                     <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-700 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left rounded"></div>
                     

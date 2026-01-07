@@ -74,12 +74,12 @@ const FAQ = () => {
           {/* Header Section */}
           <div className="text-center mb-16 animate-fade-in">
             
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-[600] font-semibold mb-6 text-gray-900 leading-tight">
+            <h2 className="leading-tight text-gray-900 mb-6">
                 Frequently <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Asked Questions</span>
-              </h1>
+              </h2>
 
-            {/* <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Frequently Asked Questions</h1> */}
-            <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
+            {/* <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">Frequently Asked Questions</h2> */}
+            <p className="text-base text-gray-700 max-w-2xl mx-auto leading-relaxed font-normal">
               Get instant answers to the most common questions about our premium cleaning services
             </p>
           </div>
@@ -108,7 +108,7 @@ const FAQ = () => {
                         </div>
                         {/* Question */}
                         <div className="flex-1 pt-1">
-                          <h3 className="text-lg font-bold text-gray-900 leading-relaxed">
+                          <h3 className="text-base md:text-lg font-bold text-gray-900 leading-relaxed">
                             {faq.question}
                           </h3>
                         </div>
@@ -124,7 +124,7 @@ const FAQ = () => {
                       <div className="mt-6 pt-6 border-t-2 border-white/40 animate-fade-in">
                         <div className="flex gap-3">
                           <CheckCircle className="w-5 h-5 text-red-500 mt-1 flex-shrink-0" />
-                          <p className="text-gray-700 leading-relaxed text-base font-medium">
+                          <p className="text-gray-700 leading-relaxed text-sm md:text-base font-normal">
                             {faq.answer}
                           </p>
                         </div>
@@ -142,11 +142,11 @@ const FAQ = () => {
               <div className="relative z-10">
                 <div className="flex justify-center mb-4">
                 </div>
-                <h3 className="text-xl sm:text-2xl font-[600] font-semibold text-blue-700 mb-3">Still Have Questions?</h3>
-                <p className="text-gray-700 mb-8">Can't find your answer? Our support team is here to help!</p>
+                <h3 className="text-xl sm:text-2xl font-semibold text-blue-700 mb-3">Still Have Questions?</h3>
+                <p className="text-gray-700 mb-8 font-normal">Can't find your answer? Our support team is here to help!</p>
                 <button 
                   onClick={handleWhatsAppClick}
-                  className="inline-flex items-center gap-3 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-3 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl active:scale-95 relative overflow-hidden group"
+                  className="inline-flex items-center gap-3 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-3 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl active:scale-95 relative overflow-hidden group text-base"
                 >
                   {/* Shimmer effect background */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer"></div>
@@ -206,7 +206,7 @@ const FAQ = () => {
                       </div>
                     </div>
                     
-                    <h3 className="text-xl sm:text-2xl font-[600] font-semibold text-white mb-2">Connect on WhatsApp</h3>
+                    <h3 className="text-xl sm:text-2xl font-semibold text-white mb-2">Connect on WhatsApp</h3>
                     <p className="text-white/90 mb-6">Chat with us directly for instant support!</p>
                     
                     <div className="bg-white/20 rounded-2xl p-4 mb-6 border border-white/40 backdrop-blur-sm">

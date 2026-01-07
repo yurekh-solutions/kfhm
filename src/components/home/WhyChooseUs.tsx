@@ -86,7 +86,7 @@ export function WhyChooseUs() {
           </div>
 
           {/* Text */}
-          <h4 className="font-medium text-lg">{title}</h4>
+          <h4 className="font-medium text-base md:text-lg">{title}</h4>
         </div>
       ))}
 
@@ -117,14 +117,14 @@ export function WhyChooseUs() {
                     </div>
                   </div>
                 </div> */}
-                       <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+                       <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
          Why Choose Us
         
             </div>
-                <h6 className="text-3xl md:text-4xl lg:text-5xl leading-relaxed  font-bold font-[600] font-black text-gray-900 mt-2 md:mt-4 leading-tight">
+                <h2 className="leading-tight text-gray-900 mt-2 md:mt-4">
                   Proven Excellence in <span className=" bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Cleaning Services</span>
-                </h6>
+                </h2>
               </div>
               
               {/* Features List - Responsive */}
@@ -144,8 +144,8 @@ export function WhyChooseUs() {
                     
                     {/* Text */}
                     <div className="flex-1 pt-1 md:pt-2 group-hover:translate-x-2 transition-transform duration-300">
-                      <h3 className="font-black text-base md:text-lg text-gray-900 group-hover:text-red-700 transition-colors">{feature.title}</h3>
-                      <p className="text-gray-700 text-xs md:text-sm leading-relaxed mt-0.5 md:mt-1 group-hover:text-gray-900 transition-colors">{feature.description}</p>
+                      <h3 className="font-bold text-base md:text-lg text-gray-900 group-hover:text-red-700 transition-colors">{feature.title}</h3>
+                      <p className="text-gray-700 text-sm leading-relaxed mt-0.5 md:mt-1 group-hover:text-gray-900 transition-colors font-normal">{feature.description}</p>
                     </div>
                   </div>
                 ))}
@@ -222,17 +222,17 @@ export function WhyChooseUs() {
           </div>
           
           <div className="relative z-10 space-y-6">
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 md:gap-3 text-xl md:text-2xl lg:text-3xl">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 md:gap-3 text-xl md:text-2xl lg:text-3xl font-bold">
               <Award className="w-6 md:w-8 lg:w-10 h-6 md:h-8 lg:h-10" />
-              <span className="font-black">35+ Years</span>
+              <span className="font-bold">35+ Years</span>
             </div>
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-black leading-tight">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
               Trusted by Thousands of <span className="text-yellow-100">Happy Customers</span>
             </h3>
-            <p className="text-base md:text-lg opacity-95 max-w-2xl mx-auto leading-relaxed px-2">
+            <p className="text-base md:text-lg opacity-95 max-w-2xl mx-auto leading-relaxed px-2 font-normal">
               Since 1983, we've been providing exceptional cleaning and facility management services across Mumbai with unwavering commitment to excellence.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-1 md:gap-2 text-base md:text-lg font-bold pt-2 md:pt-4 px-2">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-1 md:gap-2 text-base md:text-lg font-semibold pt-2 md:pt-4 px-2">
               <CheckCircle className="w-5 md:w-6 h-5 md:h-6" />
               <span>ISO Certified & 100% Satisfaction Guaranteed</span>
             </div>

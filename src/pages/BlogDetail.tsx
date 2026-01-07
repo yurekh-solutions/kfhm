@@ -177,10 +177,10 @@ const BlogDetail = () => {
     return (
       <Layout>
         <div className="py-20 text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Blog Post Not Found</h1>
+          <h2 className="text-gray-900 mb-4">Blog Post Not Found</h2>
           <button
             onClick={() => navigate("/blog")}
-            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition-all"
+            className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-8 rounded-full transition-all"
           >
             <ArrowLeft className="w-5 h-5" />
             Back to Blog
@@ -203,7 +203,7 @@ const BlogDetail = () => {
           {/* Back Button */}
           <button
             onClick={() => navigate("/blog")}
-            className="inline-flex items-center gap-2 text-red-600 hover:text-red-700 font-bold mb-8 transition-colors transform hover:scale-105"
+            className="inline-flex items-center gap-2 text-red-600 hover:text-red-700 font-semibold mb-8 transition-colors transform hover:scale-105"
           >
             <ArrowLeft className="w-5 h-5" />
             Back to Blog
@@ -219,11 +219,11 @@ const BlogDetail = () => {
               <div className="flex flex-wrap items-center gap-6 mb-8 pb-8 border-b-2 border-white/40">
                 <div className="flex items-center gap-2 bg-white/70 backdrop-blur-md border-2 border-white/80 rounded-full px-4 py-2 shadow-lg hover:shadow-xl transition-all hover:bg-white/80 transform hover:scale-105">
                   <User className="w-5 h-5 text-red-600" />
-                  <span className="text-gray-700 font-medium">{post.author}</span>
+                  <span className="text-gray-700 font-normal">{post.author}</span>
                 </div>
                 <div className="flex items-center gap-2 bg-white/70 backdrop-blur-md border-2 border-white/80 rounded-full px-4 py-2 shadow-lg hover:shadow-xl transition-all hover:bg-white/80 transform hover:scale-105">
                   <Calendar className="w-5 h-5 text-red-600" />
-                  <span className="text-gray-700 font-medium">{post.date}</span>
+                  <span className="text-gray-700 font-normal">{post.date}</span>
                 </div>
                 {/* Share Dropdown Menu */}
                 <div className="relative ml-auto">
@@ -231,7 +231,7 @@ const BlogDetail = () => {
                     onClick={() => setShowShareMenu(!showShareMenu)}
                     className="flex items-center gap-2 bg-white/70 backdrop-blur-md border-2 border-white/80 rounded-full px-4 py-2 hover:bg-white/80 transition-all shadow-lg hover:shadow-xl transform hover:scale-105">
                     <Share2 className="w-5 h-5 text-red-600" />
-                    <span className="text-gray-700 font-medium">Share</span>
+                    <span className="text-gray-700 font-normal">Share</span>
                   </button>
                   
                   {/* Share Options Menu */}
@@ -243,7 +243,7 @@ const BlogDetail = () => {
                       >
                         <Facebook className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" />
                         <div>
-                          <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">Facebook</p>
+                          <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">Facebook</p>
                           <p className="text-xs text-gray-600">Share on Facebook</p>
                         </div>
                       </button>
@@ -253,7 +253,7 @@ const BlogDetail = () => {
                       >
                         <Twitter className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" />
                         <div>
-                          <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">Twitter</p>
+                          <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">Twitter</p>
                           <p className="text-xs text-gray-600">Share on Twitter</p>
                         </div>
                       </button>
@@ -263,7 +263,7 @@ const BlogDetail = () => {
                       >
                         <Linkedin className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" />
                         <div>
-                          <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">LinkedIn</p>
+                          <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">LinkedIn</p>
                           <p className="text-xs text-gray-600">Share on LinkedIn</p>
                         </div>
                       </button>
@@ -272,10 +272,10 @@ const BlogDetail = () => {
                         className="w-full flex items-center gap-3 px-4 py-3 hover:bg-red-500/10 rounded-lg transition-all text-left group"
                       >
                         <svg className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.325 0-2.626-.466-3.676-1.314l-.264-.161-2.743.72.737-2.694-.173-.275C6.067 2.627 7.54 1.953 9.055 1.953c2.92 0 5.29 2.37 5.29 5.291 0 1.41-.564 2.735-1.582 3.722l-.194.189c-.97.85-2.262 1.347-3.594 1.347m8.973-14.953H2.036C.92 0 0 .92 0 2.036v19.928C0 23.08.92 24 2.036 24h19.928C23.08 24 24 23.08 24 21.964V2.036C24 .92 23.08 0 21.964 0z"/>
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.325 0-2.626-.466-3.676-1.314l-.264-.161-2.743.72.737-2.694-.173-.275C6.067 2.627 7.54 1.953 9.055 1.953c2.92 0 5.29 2.37 5.29 5.291 0 1.41-.564 2.735-1.582 3.722l-.194.189c-.97.85-2.262 1.347-3.594 1.347m8.973-14.953H2.036C.92 0 0 .92 0 2.036v19.928C0 23.08.92 24 2.036 24h29.928C23.08 24 24 23.08 24 21.964V2.036C24 .92 23.08 0 21.964 0z"/>
                         </svg>
                         <div>
-                          <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">WhatsApp</p>
+                          <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">WhatsApp</p>
                           <p className="text-xs text-gray-600">Share on WhatsApp</p>
                         </div>
                       </button>
@@ -284,10 +284,10 @@ const BlogDetail = () => {
                         className="w-full flex items-center gap-3 px-4 py-3 hover:bg-red-500/10 rounded-lg transition-all text-left group"
                       >
                         <svg className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                         </svg>
                         <div>
-                          <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">Email</p>
+                          <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">Email</p>
                           <p className="text-xs text-gray-600">Share via Email</p>
                         </div>
                       </button>
@@ -298,7 +298,7 @@ const BlogDetail = () => {
                         >
                           <Copy className="w-5 h-5 text-red-600 group-hover:scale-110 transition-transform" />
                           <div>
-                            <p className="font-bold text-gray-900 group-hover:text-red-600 transition-colors">
+                            <p className="font-semibold text-gray-900 group-hover:text-red-600 transition-colors">
                               {copySuccess ? "Copied!" : "Copy Link"}
                             </p>
                             <p className="text-xs text-gray-600">{copySuccess ? "Link copied" : "Copy article link"}</p>
@@ -311,9 +311,9 @@ const BlogDetail = () => {
               </div>
 
               {/* Title */}
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+              <h2 className="text-gray-900 mb-8 leading-tight">
                 {post.title}
-              </h1>
+              </h2>
 
               {/* Featured Image */}
               <div className="mb-8 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all group">
@@ -328,7 +328,7 @@ const BlogDetail = () => {
               <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
                 <div
                   dangerouslySetInnerHTML={{ __html: post.content }}
-                  className="space-y-6"
+                  className="space-y-6 blog-content"
                 />
               </div>
 
@@ -340,11 +340,11 @@ const BlogDetail = () => {
                       A
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-lg">{post.author}</p>
-                      <p className="text-gray-600">Cleaning Expert & Consultant</p>
+                      <p className="font-semibold text-gray-900 text-base">{post.author}</p>
+                      <p className="text-gray-600 text-sm font-normal">Cleaning Expert & Consultant</p>
                     </div>
                   </div>
-                  <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                  <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-base">
                     Follow
                   </button>
                 </div>
@@ -356,15 +356,15 @@ const BlogDetail = () => {
           <div className="rounded-3xl overflow-hidden backdrop-blur-2xl bg-gradient-to-br from-red-100/60 via-white/50 to-red-50/60 border-2 border-white/80 shadow-xl p-8 md:p-12 text-center hover:shadow-2xl transition-all">
             <div className="absolute inset-0 bg-gradient-to-r from-red-500/10 to-white/0 pointer-events-none"></div>
             <div className="relative z-10">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">
                 Want to explore more cleaning tips?
               </h3>
-              <p className="text-gray-700 mb-6 font-medium">
+              <p className="text-gray-700 mb-6 font-normal text-base">
                 Check out our other blog posts for expert advice on home maintenance.
               </p>
               <button
                 onClick={() => navigate("/blog")}
-                className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-lg hover:shadow-xl text-base"
               >
                 Browse All Articles
               </button>

@@ -38,19 +38,19 @@ export function ProcessSection() {
               {/* <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
                 <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Process</span>
               </div> */}
-                   <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+                   <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
           Our Process
         
             </div>
           </div>
-        <h2 className="text-3xl sm:text-4xl leading-relaxed  font-bold font-[600] md:text-6xl font-black text-gray-900 leading-tight">
+        <h2 className="leading-tight text-gray-900">
             Get Amazing Cleaning In{" "}
             <span className="bg-gradient-to-r from-blue-600 to-blue-600 bg-clip-text text-transparent">
               4 Simple Steps
             </span>
           </h2>
-          <p className="text-gray-700 text-lg max-w-2xl mx-auto leading-relaxed">Simple, transparent, and hassle-free process to get your space cleaned</p>
+          <p className="text-gray-700 max-w-2xl mx-auto leading-relaxed font-normal">Simple, transparent, and hassle-free process to get your space cleaned</p>
         </div>
 
         {/* Desktop Layout with connecting line */}
@@ -86,8 +86,8 @@ export function ProcessSection() {
                     <div className="w-24 h-24 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-red-100 to-orange-100 flex items-center justify-center group-hover:from-red-200 group-hover:to-orange-200 transition-all duration-300 shadow-md">
                       <step.icon className="w-12 h-12 text-red-600 group-hover:text-orange-700 transition-colors" />
                     </div>
-                    <h3 className="font-black text-xl text-gray-900 mb-3 group-hover:text-red-700 transition-colors">{step.title}</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed group-hover:text-gray-900 transition-colors">{step.description}</p>
+                    <h3 className="font-bold text-lg md:text-xl text-gray-900 mb-3 group-hover:text-red-700 transition-colors">{step.title}</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed group-hover:text-gray-900 transition-colors font-normal">{step.description}</p>
                   </div>
                 </div>
               </div>
@@ -121,8 +121,8 @@ export function ProcessSection() {
                     <div className="w-20 h-20 mb-6 rounded-2xl bg-gradient-to-br from-red-100 to-orange-100 flex items-center justify-center group-hover:from-red-200 group-hover:to-orange-200 transition-all duration-300 shadow-md">
                       <step.icon className="w-10 h-10 text-red-600 group-hover:text-orange-700 transition-colors" />
                     </div>
-                    <h3 className="font-black text-lg text-gray-900 mb-2 group-hover:text-red-700 transition-colors">{step.title}</h3>
-                    <p className="text-gray-700 text-sm leading-relaxed group-hover:text-gray-900 transition-colors">{step.description}</p>
+                    <h3 className="font-bold text-base md:text-lg text-gray-900 mb-2 group-hover:text-red-700 transition-colors">{step.title}</h3>
+                    <p className="text-gray-700 text-sm leading-relaxed group-hover:text-gray-900 transition-colors font-normal">{step.description}</p>
                   </div>
                 </div>
               </div>

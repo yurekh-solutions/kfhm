@@ -23,10 +23,10 @@ export function WhyKHFMSection() {
           {/* Left content - Interactive Accordion */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-5xl  md:text-6xl font-semibold  font-[600px] text-gray-900 leading-tight animate-fade-in">
+              <h1 className="text-gray-900 leading-tight animate-fade-in">
                 Why <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">KHFM</span>
               </h1>
-              <p className="text-xl  text-gray-700 leading-relaxed font-medium animate-fade-in" style={{ animationDelay: "0.05s" }}>Click on any reason to explore what makes us different</p>
+              <p className="text-lg text-gray-700 leading-relaxed font-normal animate-fade-in" style={{ animationDelay: "0.05s" }}>Click on any reason to explore what makes us different</p>
             </div>
 
             {/* Interactive Accordion */}
@@ -141,8 +141,8 @@ export function WhyKHFMSection() {
                   
                   {/* Info badge */}
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-red-600 via-red-600/80 to-transparent p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <p className="font-bold text-lg mb-2">Professional Excellence</p>
-                    <p className="text-sm text-white/90">Dedicated to delivering exceptional cleaning services</p>
+                    <p className="font-bold text-base mb-2">Professional Excellence</p>
+                    <p className="text-sm text-white/90 font-normal">Dedicated to delivering exceptional cleaning services</p>
                   </div>
                 </div>
               </div>
@@ -158,8 +158,8 @@ export function WhyKHFMSection() {
                         <span className="text-3xl">🛡️</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-white font-bold text-lg mb-1">Safety First</h3>
-                        <p className="text-white/90 text-sm leading-relaxed">Advanced sanitization protocols ensuring 99.9% germ elimination</p>
+                        <h3 className="text-white font-bold text-base mb-1">Safety First</h3>
+                        <p className="text-white/90 text-sm leading-relaxed font-normal">Advanced sanitization protocols ensuring 99.9% germ elimination</p>
                       </div>
                     </div>
                   </div>
@@ -174,8 +174,8 @@ export function WhyKHFMSection() {
                         <span className="text-3xl ">💚</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-white font-bold text-lg mb-1">Eco-Conscious</h3>
-                        <p className="text-white/90 text-sm leading-relaxed">100% biodegradable products for a sustainable future</p>
+                        <h3 className="text-white font-bold text-base mb-1">Eco-Conscious</h3>
+                        <p className="text-white/90 text-sm leading-relaxed font-normal">100% biodegradable products for a sustainable future</p>
                       </div>
                     </div>
                   </div>
@@ -190,8 +190,8 @@ export function WhyKHFMSection() {
                         <span className="text-3xl">⭐</span>
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-white font-bold text-lg mb-1">Expert Team</h3>
-                        <p className="text-white/90 text-sm leading-relaxed">Certified professionals with specialized training</p>
+                        <h3 className="text-white font-bold text-base mb-1">Expert Team</h3>
+                        <p className="text-white/90 text-sm leading-relaxed font-normal">Certified professionals with specialized training</p>
                       </div>
                     </div>
                   </div>

@@ -16,11 +16,11 @@ const Policies = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Section Title */}
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+            <h2 className="text-gray-900 leading-tight mb-6">
                 Our  <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Policies</span>
-              </h1>
+              </h2>
             {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Our Policies</h2> */}
-            <p className="text-lg text-gray-600">Transparent and customer-friendly policies for peace of mind</p>
+            <p className="text-base text-gray-600 font-normal">Transparent and customer-friendly policies for peace of mind</p>
           </div>
 
           {/* Refund Policy */}
@@ -31,7 +31,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 group-hover:bg-white/80 transition-all">
                   <CreditCard className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Refund <span className="text-blue-700"> Policy</span></h2>
+                <h2 className="text-gray-900">Refund <span className="text-blue-700"> Policy</span></h2>
               </div>
 
               <div className="space-y-6">
@@ -94,7 +94,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 hover:bg-white/80 transition-all">
                   <AlertCircle className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Cancellation <span className="text-blue-700">  Policy </span></h2>
+                <h2 className="text-gray-900">Cancellation <span className="text-blue-700">  Policy </span></h2>
               </div>
 
               <div className="space-y-6">
@@ -144,7 +144,7 @@ const Policies = () => {
                 <div className="w-14 h-14 rounded-2xl backdrop-blur-xl bg-white/70 border-2 border-white/80 flex items-center justify-center shadow-lg flex-shrink-0 hover:bg-white/80 transition-all">
                   <FileText className="w-7 h-7 text-red-600" />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Terms of <span className="text-blue-700">  Service </span></h2>
+                <h2 className="text-gray-900">Terms of <span className="text-blue-700">  Service </span></h2>
               </div>
 
               <div className="space-y-6">
@@ -186,8 +186,8 @@ const Policies = () => {
           <div className="rounded-3xl overflow-hidden backdrop-blur-2xl bg-gradient-to-br from-red-600 to-red-700 border-2 border-white/40 shadow-2xl p-8 md:p-12 text-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="absolute inset-0 bg-gradient-to-r from-red-500/20 to-white/0 pointer-events-none"></div>
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">Questions About Our Policies?</h3>
-              <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
+              <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">Questions About Our Policies?</h3>
+              <p className="text-white/90 text-base mb-8 max-w-2xl mx-auto font-normal">
                 Contact our support team for any clarifications regarding our policies.
               </p>
               <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-white/90 transition-all transform hover:scale-105 shadow-lg">

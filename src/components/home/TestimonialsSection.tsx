@@ -62,7 +62,7 @@ export function TestimonialsSection() {
             Testimonials
           </div>
 
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-gray-900 leading-tight">
+          <h2 className="leading-tight text-gray-900">
             See our{" "}
             <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
               Happy Customers
@@ -98,7 +98,7 @@ export function TestimonialsSection() {
                   {testimonial.location}
                 </p>
 
-                <p className="text-gray-700 text-sm leading-relaxed italic mb-5 flex-1">
+                <p className="text-gray-700 text-sm leading-relaxed italic mb-5 flex-1 font-normal">
                   “{testimonial.review}”
                 </p>
 

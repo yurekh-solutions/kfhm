@@ -19,16 +19,16 @@ export function ServicesGrid() {
               {/* <div className="bg-white/95 rounded-full px-6 py-2 shadow-xl">
                 <span className="text-xs font-bold bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">Our Services</span>
               </div> */}
-                <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+                <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
           Our Services
           </div>
             
           </div>
-          <h6 className="text-3xl sm:text-4xl  leading-relaxed  font-bold font-[600] md:text-5xl lg:text-6xl font-black text-gray-900 px-2">
+          <h2 className="leading-tight text-gray-900 px-2">
             Expert Care for Clean <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Safe Spaces</span>
-          </h6>
-          <p className="text-gray-700 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed px-4">
+          </h2>
+          <p className="text-gray-700 max-w-2xl mx-auto leading-relaxed px-4 font-normal">
             Professional cleaning and pest control services for homes, offices, and commercial spaces
           </p>
         </div>
@@ -46,7 +46,7 @@ export function ServicesGrid() {
         </div>
 
         <div className="text-center mt-12 md:mt-16 animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold px-8 sm:px-10 py-4 sm:py-6 text-sm sm:text-lg rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300" asChild>
+          <Button size="lg" className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold px-8 sm:px-10 py-4 sm:py-6 text-base rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300" asChild>
             <Link to="/services" className="flex items-center gap-2">
               View All Services
               <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />

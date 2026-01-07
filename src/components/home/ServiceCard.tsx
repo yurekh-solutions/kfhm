@@ -39,19 +39,19 @@ export function ServiceCard({ service }: ServiceCardProps) {
         
         {/* Content Section - Responsive */}
         <div className="p-4 sm:p-6 md:p-7 flex-1 flex flex-col relative z-10">
-          <h3 className="font-black text-lg sm:text-xl md:text-2xl text-blue-700 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
+          <h3 className="font-bold text-lg sm:text-xl md:text-2xl text-blue-700 mb-2 sm:mb-3 group-hover:text-red-700 transition-all line-clamp-2">
             {service.name}
           </h3>
-          <p className="text-gray-700 text-xs sm:text-sm md:text-base mb-4 sm:mb-6 line-clamp-2 leading-relaxed flex-1">
+          <p className="text-gray-700 text-sm md:text-base mb-4 sm:mb-6 line-clamp-2 leading-relaxed flex-1 font-normal">
             {service.description}
           </p>
           
           <div className="flex items-center justify-between pt-3 sm:pt-4 border-t border-red-200/50 gap-2">
-            <span className="text-xs font-bold uppercase tracking-wide text-red-700 hidden sm:inline">Starting from</span>
-            <span className="text-xs font-bold uppercase tracking-wide text-red-700 sm:hidden">Book</span>
+            <span className="text-xs font-semibold uppercase tracking-wide text-red-700 hidden sm:inline">Starting from</span>
+            <span className="text-xs font-semibold uppercase tracking-wide text-red-700 sm:hidden">Book</span>
             <Button 
               size="sm" 
-              className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold px-4 sm:px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-xs sm:text-sm" 
+              className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold px-4 sm:px-6 py-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-xs sm:text-sm" 
               asChild
             >
               <Link to={`/services/${service.id}`}>

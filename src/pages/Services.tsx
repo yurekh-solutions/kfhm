@@ -26,13 +26,13 @@ const Services = () => {
                 </div>
               </div>
             </div> */}
-             <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+             <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
        Premium Solutions
         
             </div>
-            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] mb-6 text-gray-900 leading-tight">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Professional Services</span></h1>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+            <h2 className="text-gray-900 leading-tight mb-6">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Professional Services</span></h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed font-normal">
               Comprehensive cleaning solutions tailored to meet your home's unique needs with professional excellence.
             </p>
           </div>
@@ -62,25 +62,25 @@ const Services = () => {
                 {/* Content Section */}
                 <div className="relative z-10 p-8">
                   {/* Title */}
-                  <h3 className="text-2xl font-bold text-blue-700 mb-3 group-hover:text-red-600 transition-colors leading-tight">
+                  <h3 className="text-xl font-bold text-blue-700 mb-3 group-hover:text-red-600 transition-colors leading-tight">
                     {service.name}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-gray-700 mb-6 leading-relaxed font-medium line-clamp-3">
+                  <p className="text-gray-700 mb-6 leading-relaxed font-normal line-clamp-3">
                     {service.description}
                   </p>
 
                   {/* Price */}
                   <div className="flex items-center justify-between">
                     <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-full px-4 py-2">
-                      <p className="text-white font-bold">₹{service.price.toLocaleString()}</p>
+                      <p className="text-white font-semibold">₹{service.price.toLocaleString()}</p>
                     </div>
                     
                     {/* View Details Button */}
-                    <button className="relative inline-flex items-center gap-2 text-red-600 font-bold overflow-hidden group/btn">
+                    <button className="relative inline-flex items-center gap-2 text-red-600 font-semibold overflow-hidden group/btn">
                       <div className="absolute inset-0 bg-gradient-to-r from-red-600 to-red-700 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-right rounded"></div>
-                      <span className="relative z-10 group-hover/btn:text-white transition-colors duration-300">View</span>
+                      <span className="relative z-10 group-hover/btn:text-white transition-colors duration-300 text-sm">View</span>
                       <ArrowRight className="relative z-10 w-4 h-4 transform group-hover/btn:translate-x-1 transition-transform duration-300" />
                     </button>
                   </div>
@@ -100,11 +100,11 @@ const Services = () => {
                   <Zap className="w-6 h-6 text-red-600" />
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900">Ready to Transform Your Space?</h3>
                 </div>
-                <p className="text-lg text-gray-700 leading-relaxed font-medium">
+                <p className="text-base text-gray-700 leading-relaxed font-normal">
                   Book your professional cleaning service today and experience the KHFM difference. Our expert team is ready to make your home spotless.
                 </p>
               </div>
-              <button className="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex-shrink-0" onClick={() => navigate('/contact')}>
+              <button className="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-4 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl flex-shrink-0 text-base" onClick={() => navigate('/contact')}>
                 Contact Us
                 <ArrowRight className="w-5 h-5" />
               </button>

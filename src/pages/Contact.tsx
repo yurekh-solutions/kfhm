@@ -55,15 +55,15 @@ const Contact = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Main Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+            <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
        Get In Touch
             </div>
-            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] mb-6 text-gray-900 leading-tight">
+            <h2 className="text-gray-900 leading-tight mb-6">
               Let's Connect & 
               <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Help You</span>
-            </h1>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+            </h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed font-normal">
               Have questions about our premium cleaning services? We're here to provide expert assistance and ensure your complete satisfaction.
             </p>
           </div>
@@ -89,7 +89,7 @@ const Contact = () => {
                   </div>
                   
                   {/* Text */}
-                  <span className="font-bold text-gray-900 text-base leading-relaxed">{benefit.text}</span>
+                  <span className="font-semibold text-gray-900 text-base leading-relaxed">{benefit.text}</span>
                   
                   {/* Bottom accent bar */}
                   <div className="mt-4 w-12 h-1 bg-gradient-to-r from-red-500 to-red-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -101,9 +101,9 @@ const Contact = () => {
         <section className="py-20 bg-gradient-to-br from-white via-red-50/30 to-white">
         <div className="container max-w-7xl mx-auto px-4">
           <div className="mb-16 text-center animate-fade-in">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Reach Out <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">To Us</span></h2>
+            <h2 className="text-gray-900 mb-4">Reach Out <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">To Us</span></h2>
 
-            <p className="text-lg text-gray-600 font-medium">Multiple ways to connect with our expert team</p>
+            <p className="text-base text-gray-600 font-normal">Multiple ways to connect with our expert team</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
@@ -131,13 +131,13 @@ const Contact = () => {
                     </div>
                     
                     {/* Title */}
-                    <h3 className="font-bold text-2xl text-gray-900 mb-3">{info.title}</h3>
+                    <h3 className="font-bold text-xl md:text-2xl text-gray-900 mb-3">{info.title}</h3>
                     
                     {/* Value */}
-                    <p className="text-gray-700 font-medium text-sm leading-relaxed break-all">{info.value}</p>
+                    <p className="text-gray-700 font-normal text-sm leading-relaxed break-all">{info.value}</p>
                     
                     {/* Arrow */}
-                    <div className="mt-4 flex items-center gap-2 text-red-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="mt-4 flex items-center gap-2 text-red-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
                       <span>Connect</span>
                       <span className="transform group-hover:translate-x-1 transition-transform">→</span>
                     </div>
@@ -158,8 +158,8 @@ const Contact = () => {
         <div className="container max-w-7xl mx-auto px-4">
           {/* Header */}
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-semibold  font-[600px] text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Creations</span> </h1>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
+            <h2 className="text-gray-900 mb-4">Our Latest <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Creations</span> </h2>
+            <p className="text-base text-gray-600 max-w-2xl mx-auto leading-relaxed font-normal">
               A visual collection of our most recent works - each space transformed with intention, expertise, and premium cleaning excellence.
             </p>
           </div>
@@ -219,7 +219,7 @@ const Contact = () => {
           <div className="flex justify-center mt-12 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <button 
               onClick={() => navigate('/services')}
-              className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-bold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl">
+              className="bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold py-4 px-10 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-2xl text-base">
               View All Services
             </button>
           </div>

@@ -49,30 +49,32 @@ const About = () => {
                 </div>
               </div>
                */}
-               <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-bold mb-6 border border-red-500/30">
+               <div className="inline-flex items-center gap-3 bg-red-600/20 backdrop-blur-md text-red-400 px-6 py-3 rounded-full text-sm font-semibold mb-6 border border-red-500/30">
             <span className="w-2.5 h-2.5 bg-red-500 rounded-full animate-pulse"></span>
         Our Story
         
             </div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+              <h2 className="text-gray-900 leading-tight mb-6">
                 KHFM <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Cleaning Solution</span>
-              </h1>
-
+              </h2>
+ {/* <h2 className="leading-tight text-gray-900 px-2">
+             <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Safe Spaces</span>
+          </h2> */}
               <div className="space-y-4 mb-8">
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-red-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     KHFM Cleaning Solution is a Division of KHFM Hospitality & Facility Management Services Ltd., which is one of the Oldest Housekeeping & Cleaning Company established in <span className="font-bold text-red-600">1983</span> in Mumbai.
                   </p>
                 </div>
                 
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-red-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     KHFM Cleaning Solutions is one of <span className="font-bold text-red-600">premier cleaning services provider in India</span>. We want to ensure that a lasting impression is made by the quality of your business, and we know that the first indication of quality is cleanliness.
                   </p>
                 </div>
                 
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-red-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     We are <span className="font-bold text-red-600">committed to providing</span> the most professional and thorough janitorial services with trained professionals.
                   </p>
                 </div>
@@ -82,8 +84,8 @@ const About = () => {
 
           {/* Services Grid */}
           <div className="mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Services</span></h2>
-            <p className="text-xl text-gray-700 font-medium mb-8">Comprehensive cleaning solutions for every need</p>
+            <h2 className="text-gray-900 mb-4">Our <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">Services</span></h2>
+            <p className="text-base text-gray-700 font-normal mb-8">Comprehensive cleaning solutions for every need</p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {services.map((service, idx) => (
@@ -91,7 +93,7 @@ const About = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-red-500/10 to-red-400/5"></div>
                   <div className="relative z-10 flex items-start gap-4">
                     <CheckCircle className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
-                    <span className="text-gray-900 font-bold leading-relaxed">{service}</span>
+                    <span className="text-gray-900 font-semibold leading-relaxed">{service}</span>
                   </div>
                 </div>
               ))}
@@ -122,25 +124,25 @@ const About = () => {
                 </div>
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 leading-tight">
+              <h2 className="text-gray-900 leading-tight mb-6">
                 Our <span className="bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">Commitment</span>
               </h2>
 
               <div className="space-y-4 mb-8">
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-green-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     We are <span className="font-bold text-green-600">committed to environmental sustainability</span> and eco-friendly practices in all our cleaning operations and facility management services.
                   </p>
                 </div>
                 
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-green-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     Using <span className="font-bold text-green-600">non-toxic and biodegradable products</span>, we ensure that our cleaning services are safe for families, pets, and the environment while maintaining the highest standards of hygiene.
                   </p>
                 </div>
                 
                 <div className="rounded-2xl backdrop-blur-2xl bg-gradient-to-br from-white/80 via-green-50/40 to-white/80 border-2 border-white/80 p-6 hover:shadow-xl transition-all">
-                  <p className="text-gray-700 leading-relaxed font-medium">
+                  <p className="text-gray-700 leading-relaxed font-normal">
                     Our <span className="font-bold text-green-600">green initiatives</span> extend beyond cleaning to include waste management, water conservation, and supporting sustainable practices across our entire organization.
                   </p>
                 </div>
@@ -158,7 +160,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-gray-900">40+</p>
-                  <p className="text-gray-700 font-medium">Years Experience</p>
+                  <p className="text-gray-700 font-normal">Years Experience</p>
                 </div>
               </div>
             </div>
@@ -171,7 +173,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-gray-900">3500+</p>
-                  <p className="text-gray-700 font-medium">Trained Staff</p>
+                  <p className="text-gray-700 font-normal">Trained Staff</p>
                 </div>
               </div>
             </div>
@@ -184,7 +186,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-gray-900">Pan India</p>
-                  <p className="text-gray-700 font-medium">Service Presence</p>
+                  <p className="text-gray-700 font-normal">Service Presence</p>
                 </div>
               </div>
             </div>
@@ -201,8 +203,8 @@ const About = () => {
                     <Target className="w-8 h-8 text-white" />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Our Vision</h3>
-                <p className="text-gray-700 leading-relaxed font-medium text-center">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Our Vision</h3>
+                <p className="text-gray-700 leading-relaxed font-normal text-center">
                   To be the most trusted and preferred cleaning service provider across India, recognized for our commitment to excellence, sustainability, and customer satisfaction in every interaction.
                 </p>
               </div>
@@ -217,8 +219,8 @@ const About = () => {
                     <Lightbulb className="w-8 h-8 text-white" />
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">Our Mission</h3>
-                <p className="text-gray-700 leading-relaxed font-medium text-center">
+                <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">Our Mission</h3>
+                <p className="text-gray-700 leading-relaxed font-normal text-center">
                   KHFM Cleaning Solutions is dedicated to delivering exceptional cleaning and facility management services with integrity, innovation, and a deep commitment to environmental sustainability and customer delight.
                 </p>
               </div>
@@ -231,7 +233,7 @@ const About = () => {
       <section className="py-8">
         <div className="container text-center">
           <div className="glass-effect-dark text-grey rounded-full py-4 px-8 text-center inline-block animate-fade-in">
-            <span className="font-semibold text-lg">🌿 Always use Eco-Friendly Services & Save our Nature</span>
+            <span className="font-medium text-base">🌿 Always use Eco-Friendly Services & Save our Nature</span>
           </div>
         </div>
       </section>

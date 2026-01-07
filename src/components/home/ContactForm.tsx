@@ -58,13 +58,13 @@ export function ContactForm() {
         {/* Header */}
         <div className="text-center mb-8 sm:mb-10">
           <div className="inline-flex items-center gap-2 bg-red-600/20 backdrop-blur-md
-            text-red-400 px-4 py-2 rounded-full text-xs sm:text-sm font-bold
+            text-red-400 px-4 py-2 rounded-full text-xs sm:text-sm font-semibold
             border border-red-500/30 mb-3">
             <span className="w-2 h-2 bg-red-500 rounded-full animate-pulse" />
             Get In Touch
           </div>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-gray-900">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
             Get{" "}
             <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent">
               Free Consultation
@@ -72,7 +72,7 @@ export function ContactForm() {
             Today
           </h2>
 
-          <p className="text-gray-600 text-sm sm:text-base mt-3 max-w-xl mx-auto">
+          <p className="text-gray-600 text-sm sm:text-base mt-3 max-w-xl mx-auto font-normal">
             Have questions? Our cleaning experts are here to help via WhatsApp.
           </p>
         </div>
@@ -106,9 +106,9 @@ export function ContactForm() {
                   <Phone className="h-5 w-5 text-[#dc2626]" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-900 text-sm">Quick Call</h3>
+                  <h3 className="font-semibold text-gray-900 text-sm">Quick Call</h3>
                   <p className="text-xs text-gray-600">
-                    <a href="tel:+919987574333" className="text-[#dc2626] font-bold">
+                    <a href="tel:+919987574333" className="text-[#dc2626] font-semibold">
                       +91 9987574333
                     </a>
                   </p>
@@ -146,8 +146,8 @@ export function ContactForm() {
               <Button
                 type="submit"
                 className="w-full bg-[#dc2626] hover:bg-red-700
-                text-white font-bold py-4 rounded-xl flex items-center
-                justify-center gap-2">
+                text-white font-semibold py-4 rounded-xl flex items-center
+                justify-center gap-2 text-base">
                 <Send className="w-4 h-4" />
                 Submit
               </Button>
@@ -165,10 +165,10 @@ export function ContactForm() {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
           <div className="bg-white rounded-3xl p-6 shadow-2xl max-w-sm w-full mx-4">
             <CheckCircle className="w-12 h-12 text-[#dc2626] mx-auto mb-4" />
-            <h3 className="text-lg font-black text-center mb-2">
+            <h3 className="text-lg font-bold text-center mb-2">
               Request Sent!
             </h3>
-            <p className="text-sm text-gray-600 text-center mb-4">
+            <p className="text-sm text-gray-600 text-center mb-4 font-normal">
               Redirecting to WhatsApp...
             </p>
             <Button

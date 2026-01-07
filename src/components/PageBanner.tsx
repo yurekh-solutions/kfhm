@@ -21,8 +21,8 @@ export function PageBanner({ title, subtitle, backgroundImage }: PageBannerProps
       </div>
       <div className="container relative z-10">
         <div className="glass-effect-dark rounded-2xl p-8 md:p-12 text-center animate-fade-in">
-          <h1 className="text-4xl md:text-5xl font-bold  mb-2">{title}</h1>
-          {subtitle && <p className="text-lg opacity-90">{subtitle}</p>}
+          <h1 className="mb-2">{title}</h1>
+          {subtitle && <p className="text-base md:text-lg opacity-90 font-normal">{subtitle}</p>}
         </div>
       </div>
     </section>
